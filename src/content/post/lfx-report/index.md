@@ -1,5 +1,6 @@
 ---
 title: Vitess LFX Mentorship Fall 2021
+description: How I fixed string comparison in the database system powering YouTube, GitHub, and Slack—my journey deep into MySQL's collation secrets
 tags:
 - open-source
 - tech
