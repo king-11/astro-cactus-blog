@@ -1,5 +1,6 @@
 ---
 title: Journey Google Summer of Code
+description: From clueless beginner to Google Summer of Code acceptance - my unconventional path to open source success
 tags:
 - open-source
 - gsoc
