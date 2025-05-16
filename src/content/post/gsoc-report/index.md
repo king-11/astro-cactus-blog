@@ -9,6 +9,7 @@ publishDate: 2021-08-26 13:24:41+05:30
 coverImage:
   src: report.webp
   alt: Google Summer of Code 2021 Report
+description: Google Summer of Code 2021 Report of Socket Module project for Chapel Organisation
 ---
 
 ## Abstract

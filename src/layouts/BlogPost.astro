@@ -21,7 +21,7 @@ const readingTime: string = remarkPluginFrontmatter.readingTime;
 <BaseLayout
 	meta={{
 		articleDate,
-		description,
+		description: description ?? "",
 		ogImage: socialImage,
 		title,
 	}}
