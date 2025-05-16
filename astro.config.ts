@@ -18,6 +18,8 @@ import { remarkAdmonitions } from "./src/plugins/remark-admonitions"; /* Add adm
 import { remarkGithubCard } from "./src/plugins/remark-github-card";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time";
 import { expressiveCodeOptions, siteConfig } from "./src/site.config";
+import rehypeMermaid from "rehype-mermaid";
+import rehypeGithubEmoji from "rehype-github-emoji";
 
 // https://astro.build/config
 export default defineConfig({
@@ -64,6 +66,9 @@ export default defineConfig({
 		}),
 	],
 	markdown: {
+		syntaxHighlight: {
+			excludeLangs: ["mermaid"],
+		},
 		rehypePlugins: [
 			rehypeHeadingIds,
 			[rehypeAutolinkHeadings, { behavior: "wrap", properties: { className: ["not-prose"] } }],
@@ -75,6 +80,9 @@ export default defineConfig({
 				},
 			],
 			rehypeUnwrapImages,
+			// TODO(king-11): dark mode not working as button based
+			[rehypeMermaid, { strategy: "img-svg", dark: true }],
+			rehypeGithubEmoji,
 		],
 		remarkPlugins: [remarkReadingTime, remarkDirective, remarkGithubCard, remarkAdmonitions],
 		remarkRehype: {
