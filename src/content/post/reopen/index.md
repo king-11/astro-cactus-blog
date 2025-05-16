@@ -1,5 +1,6 @@
 ---
 title: Reopen IIT BHU
+description: My passionate plea to reopen our campus—why online degrees can't replace midnight walks to the ghats, festival chaos, and the true college experience we fought so hard to earn
 tags:
 - life
 - iit

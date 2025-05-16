@@ -1,5 +1,6 @@
 ---
 title: Finding IIT
+description: My rollercoaster journey from JEE preparation to IIT selection—featuring chemistry olympiads, unexpected results, and the crucial decision that shaped my future
 tags:
 - life
 - jee

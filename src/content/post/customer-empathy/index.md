@@ -7,6 +7,7 @@ publishDate: 2023-11-18
 coverImage:
   src: evil_google.png
   alt: Loss of Customer Empathy
+description: Produce in today's market are designed to purely squeeze out money from you with having any empathy for customers. Let's go over such examples and what is my plan to tackle these.
 ---
 
 ## Gold Plated Products

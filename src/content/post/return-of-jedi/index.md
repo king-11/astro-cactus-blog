@@ -1,5 +1,6 @@
 ---
 title: Return of The Jedi
+description: My painful journey back to campus after a tragic accident—fighting bureaucracy, reconnecting with friends, and finding the strength to rise again like a phoenix
 tags:
 - life
 - iit

@@ -1,5 +1,6 @@
 ---
 title: OnCampus Microsoft Interview
+description: From crushing coding challenges to impressing interviewers with open source work—the inside story of how I landed my dream job at Microsoft
 tags:
 - microsoft
 - life
