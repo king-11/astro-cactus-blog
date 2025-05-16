@@ -1,9 +1,9 @@
 ---
 title: Hello, Welcome
-description: An introduction to using the note feature in Astro Cactus
-publishDate: "2024-10-14T11:23:00Z"
+description: Blog migration
+publishDate: "2025-05-15T19:01:00+05:30"
 ---
 
-Hi, Hello. This is an example note feature included with Astro Cactus.
+Hi Reader,
 
-They're for shorter, concise "post's" that you'd like to share, they generally don't include headings, but hey, that's entirely up to you.
+I have recently migrated my website from using [hugo](https://gohugo.io/) to [astro](https://astro.build/). In case you encounter any errors do let me know about the same. Happy reading and feel free to reach out to me on any of my social media handles.
