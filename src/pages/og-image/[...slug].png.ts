@@ -28,45 +28,33 @@ const ogOptions: SatoriOptions = {
 	width: 1200,
 };
 
-const markup = (title: string, pubDate: string) =>
-	html`<div tw="flex flex-col w-full h-full bg-[#1d1f21] text-[#c9cacc]">
+const markup = (title: string, pubDate: string, description: string) =>
+	html`<div tw="flex flex-col w-full h-full bg-[#eff1f5] text-[#4c4f69]">
 		<div tw="flex flex-col flex-1 w-full p-10 justify-center">
-			<p tw="text-2xl mb-6">${pubDate}</p>
-			<h1 tw="text-6xl font-bold leading-snug text-white">${title}</h1>
+			<p tw="text-2xl mb-6 text-[#7287fd]">${pubDate}</p>
+			<h1 tw="text-6xl font-bold leading-snug text-[#4c4f69]">${title}</h1>
+			<p tw="text-sm mt-2 text-[#5c5f77] text-justify">${description}</p>
 		</div>
-		<div tw="flex items-center justify-between w-full p-10 border-t border-[#2bbc89] text-xl">
-			<div tw="flex items-center">
-				<svg height="60" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 272 480">
-					<path
-						d="M181.334 93.333v-40L226.667 80v40l-45.333-26.667ZM136.001 53.333 90.667 26.667v426.666L136.001 480V53.333Z"
-						fill="#B04304"
-					></path>
-					<path
-						d="m136.001 119.944 45.333-26.667 45.333 26.667-45.333 26.667-45.333-26.667ZM90.667 26.667 136.001 0l45.333 26.667-45.333 26.666-45.334-26.666ZM181.334 53.277l45.333-26.666L272 53.277l-45.333 26.667-45.333-26.667ZM0 213.277l45.333-26.667 45.334 26.667-45.334 26.667L0 213.277ZM136 239.944l-45.333-26.667v53.333L136 239.944Z"
-						fill="#FF5D01"
-					></path>
-					<path
-						d="m136 53.333 45.333-26.666v120L226.667 120V80L272 53.333V160l-90.667 53.333v240L136 480V306.667L45.334 360V240l45.333-26.667v53.334L136 240V53.333Z"
-						fill="#53C68C"
-					></path>
-					<path d="M45.334 240 0 213.334v120L45.334 360V240Z" fill="#B04304"></path>
-				</svg>
-				<p tw="ml-3 font-semibold">${siteConfig.title}</p>
+		<div tw="flex items-center justify-between w-full p-10 border-t border-[#dce0e8] text-xl">
+			<img src="https://blog.king-11.dev/icon.jpeg" width="128" height="128" />
+			<div tw="flex flex-col items-end">
+				<p tw="font-semibold text-[#4c4f69]">${siteConfig.title}</p>
+				<p tw="text-[#5c5f77]">by ${siteConfig.author}</p>
 			</div>
-			<p>by ${siteConfig.author}</p>
 		</div>
 	</div>`;
 
 type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 
 export async function GET(context: APIContext) {
-	const { pubDate, title } = context.props as Props;
+	const { pubDate, title, description } = context.props as Props;
+	console.info(description);
 
 	const postDate = getFormattedDate(pubDate, {
 		month: "long",
 		weekday: "long",
 	});
-	const svg = await satori(markup(title, postDate), ogOptions);
+	const svg = await satori(markup(title, postDate, description), ogOptions);
 	const png = new Resvg(svg).render().asPng();
 	return new Response(png, {
 		headers: {
@@ -85,6 +73,7 @@ export async function getStaticPaths() {
 			props: {
 				pubDate: post.data.updatedDate ?? post.data.publishDate,
 				title: post.data.title,
+				description: post.data.description ?? "",
 			},
 		}));
 }
