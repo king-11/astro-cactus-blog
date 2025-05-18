@@ -37,7 +37,7 @@ export const menuLinks: { path: string; title: string }[] = [
 		title: "Home",
 	},
 	{
-		path: "/about/",
+		path: "https://www.king-11.dev",
 		title: "About",
 	},
 	{
