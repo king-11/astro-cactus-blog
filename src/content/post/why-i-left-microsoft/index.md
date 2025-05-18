@@ -66,7 +66,7 @@ My initial plan was to switch companies after two years, but as interview opport
 
 Luckily, both the two interviews I gave both turned into offers and I was left with a big question: Should I move? the answer was a big yes, specifically for Glean, where I joined a lot of things were what I wanted:
 - I wanted to be in a company that has a lot of smart people because you are average of the people you hang out with
-- I wanted to work on a product that people enjoy using because its a joy to tell someone who think my product is pretty great that "I built that"
+- I wanted to work on a product that people enjoy using because its a joy to tell someone who thinks my product is pretty great that "I built that"
 - I wanted to experience the startup culture but also not take a lot of risk so a mid stage startup was the right fit to be in that pace of work
 - I wanted to build wealth, fast-track my retirement and not just earn money. This comes in form of ESOPs at a growing company
 
@@ -87,7 +87,9 @@ At the end you want your ESOPs to convert into real money and wealth that fulfil
 
 There is another major risk, what kind of culture are you getting yourself into? Some startups like Zomato, Navi, etc have pretty toxic culture where being **forced** into working overtime, finding it difficult to find time for *your own life*, micro management, etc are pretty common.
 
- >[!quote] You have two lives, and the second one begins when you realize you only have one.
+:::tip
+You have two lives, and the second one begins when you realize you only have one.
+:::
 
 Most of the startups don't provide you great flexibility in working from anyplace you want to and many big corporations too like Amazon, Flipkart, etc. now. I myself prefer going office everyday but certainly there are times when I want to be with my parents, when they are healthy and lively because they are getting old and have crossed `50`. Obviously I will be there when they are ill but _isn't that too late_?
 
