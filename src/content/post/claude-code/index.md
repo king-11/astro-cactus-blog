@@ -28,9 +28,11 @@ Let's rollback a little the first AI coding assistant that I used was **GitHub C
 
 Even though the completions were good for common patterns found in codebases I **stopped** with autocompletion by AI extensions in my IDE altogether. The primary reasons were:
 - It halted the activation of my *flow state* where I was continuously waiting for the AI to do its job which it does sometimes and sometimes doesn't.
-- There was also increasing reliance on **autocomplete** which prevents me from learning the correct syntax because if _"I don't write it, I won't ever learn it"_.
+- There was also increasing reliance on **autocomplete** and AI correction which prevents me from learning the correct way of programming things, to develop muscle memory about patterns, methods, etc because if _"I don't write it, I won't ever learn it"_.
 
-All these ideas were also gathered by others like Luciano in his blog: [Why I stopped using AI code editors · Luciano Nooijen](https://lucianonooijen.com/blog/why-i-stopped-using-ai-code-editors/). So no more auto complete in the IDE.
+All these ideas were also gathered by others like Luciano in his blog: [Why I stopped using AI code editors](https://lucianonooijen.com/blog/why-i-stopped-using-ai-code-editors/) and DHH on Lex Fridman Podcast: [Future of Programming](https://youtu.be/vagyIcmIGOQ?si=Sh_ZEaxUf6I0KzR9&t=5212). So no more auto complete in the IDE.
+
+>The way I use AI is in a separate window...because I can literally feel competence draining out of my fingers, that level of immediacy with the material disappears. - DHH
 
 For sometime I tried using chat interface of Github Copilot for correcting code and asking for suggestion whenever required. I also tried **Cascade** by [Windsurf](https://windsurf.com/) in Intellij but that didn't work out well because the agentic flow in these tools wasn't working great at the time.
 
