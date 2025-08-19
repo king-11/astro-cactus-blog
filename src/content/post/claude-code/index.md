@@ -75,7 +75,7 @@ This was something I became aware of while reading the [document](https://www.an
 
 ![plan mode claude code](plan.webp)
 
-So before starting any task I will make sure to but claude into plan mode (Shift + \<TAB\>) based on the requirements provided, it generates a plan which we can reject and ask it to reiterate on until we are satisfied.
+So before starting any task I will make sure to put claude into plan mode (Shift + \<TAB\>) based on the requirements provided, it generates a plan which we can reject and ask it to reiterate on until we are satisfied.
 
 ### Using Keywords
 The one important thing that [best practices](https://www.anthropic.com/engineering/claude-code-best-practices) document mentions is the use of words like:
@@ -108,7 +108,7 @@ The second thing it helps with is the second reviewing claude prevents **halluci
 ## Sub Agents
 I had experienced this earlier where claude code was making use of running **independent** subagents to complete the plan faster but after a few updates stopped doing it. I also forget about this feature.
 
-Recently one of my colleague [Raymond](https://www.linkedin.com/in/raymondcarino/) pointed it out that sub agents is something that can help in context reduction as its not shared with main agent. While that is a great addon but the biggest one is **explicitly** asking claude to use sub agents for running indpedent tasks concurrently reduces the *time to completion* a lot.
+Recently one of my colleague [Raymond](https://www.linkedin.com/in/raymondcarino/) pointed it out that sub agents is something that can help in context reduction as its not shared with main agent. While that is a great addon but the biggest one is **explicitly** asking claude to use sub agents for running independent tasks concurrently reduces the *time to completion* a lot.
 
 ## Configuring Tools
 Claude Code configuration can store details about what tools we allow it to use automatically without asking for confirmation and what is disallowed. Here is what it looks like
@@ -159,18 +159,24 @@ Write the comprehensive plan in plan-<SHORT_NAME>.md file first
 - the implementation touching upon what all files to modify
 - and how to write test
 
-Be as particular as possible in the plan.
+You have to be as particular as possible in the plan.
 
 Proceed in a test driven manner.
 - write tests first considering all the business requirements,
 - next ensure that build is passing using skeleton structs and functions
 - now ensure that tests are failing as we haven't completed the implementation yet.
 - finally write the implementation and make sure tests are passing now
+
+Make sure to also include ways that will finally verify that our plan was executed properly and everything is in a good state
 ```
 
 For reviewing the plan I use the below one
 ```
-Review generated plan file and update any misses if its not complete or incorrect
+Review @ and update any misses if its not complete or incorrect.
+
+DON'T GO OVERBOARD WITH IDENTIFYING UNNECESSARY ISSUES.
+
+Only focus on whether the implementation is complete and resolves the issue at hand or not. We don't want to be bothered with things like regression or performance testing without explicit plan requirements.
 ```
 
 ## Wrapping Up
