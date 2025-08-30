@@ -81,10 +81,9 @@ Furthermore, I can upgrade all the `HTTP` connection to `HTTPS` which returns co
 
 ```mermaid
 graph TD
-	B(Browser) -->|1. HTTP Connection| C(Cloudflare)
-	C -->|2. 307 Internal Redirect| B
-	B -->|3. Connection Redirect| B
-	B -->|4. HTTPS Connection| C
+	B(Browser) -->|HTTP Connection| C(Cloudflare)
+	C -->|307 Internal Redirect| B
+	B -->|HTTPS Connection| C
 ```
 
 ## Github Pages
