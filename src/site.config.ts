@@ -14,7 +14,7 @@ export const siteConfig: SiteConfig = {
 		},
 	},
 	// Used as the default description meta property and webmanifest description
-	description: "A blog site owned by Lakshya Singh a geeky, nerdy, technophile Software Engineer and part time traveller. Backpacking through different phases of life, making friends along the way and sharing his experiences with them.",
+	description: "A blog site owned by Lakshya Singh a geeky, nerdy, technophile Software Engineer and part traveller.",
 	// HTML lang property, found in src/layouts/Base.astro L:18 & astro.config.ts L:48
 	lang: "en-GB",
 	// Meta property, found in src/components/BaseHead.astro L:42
