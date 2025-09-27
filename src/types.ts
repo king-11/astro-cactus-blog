@@ -47,4 +47,31 @@ export interface Summary {
 	value: string;
 }
 
-export type AdmonitionType = "tip" | "note" | "important" | "caution" | "warning";
+export type AdmonitionType =
+	| "note"
+	| "abstract"
+	| "summary"
+	| "tldr"
+	| "info"
+	| "todo"
+	| "tip"
+	| "hint"
+	| "important"
+	| "success"
+	| "check"
+	| "done"
+	| "question"
+	| "help"
+	| "faq"
+	| "warning"
+	| "caution"
+	| "attention"
+	| "failure"
+	| "fail"
+	| "missing"
+	| "danger"
+	| "error"
+	| "bug"
+	| "example"
+	| "quote"
+	| "cite";

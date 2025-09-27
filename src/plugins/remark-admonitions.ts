@@ -9,7 +9,35 @@ import type { AdmonitionType } from "@/types";
 import { h, isNodeDirective } from "../utils/remark";
 
 // Supported admonition types
-const Admonitions = new Set<AdmonitionType>(["tip", "note", "important", "caution", "warning"]);
+const Admonitions = new Set<AdmonitionType>([
+	"note",
+	"abstract",
+	"summary",
+	"tldr",
+	"info",
+	"todo",
+	"tip",
+	"hint",
+	"important",
+	"success",
+	"check",
+	"done",
+	"question",
+	"help",
+	"faq",
+	"warning",
+	"caution",
+	"attention",
+	"failure",
+	"fail",
+	"missing",
+	"danger",
+	"error",
+	"bug",
+	"example",
+	"quote",
+	"cite",
+]);
 
 /** Checks if a string is a supported admonition type. */
 function isAdmonition(s: string): s is AdmonitionType {
