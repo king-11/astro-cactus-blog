@@ -87,7 +87,7 @@ First, I jotted down the list of organizations I want to contribute to based pri
 
 ![filtered org list.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1625384922319/dGkrSGMjD.jpeg)
 
-One of the most useful tools I found when selecting my GSoC organization was developed by one of my seniors @[Nishant Mittal](@nishantwrp). With all the statistics at hand, I can filter out organizations.
+One of the most useful tools I found when selecting my GSoC organization was developed by one of my seniors [Nishant Mittal](https://github.com/nishantwrp). With all the statistics at hand, I can filter out organizations.
 
 %[https://www.gsocorganizations.dev/]
 

@@ -50,7 +50,7 @@ Here is the [guide](https://www.reddit.com/r/revancedapp/s/212RnQA3th) that I us
 - Pay up 👁️👁️
 
 ### Spotify Premium
-There are multiple **modded** versions of Spotify available which just work fine still even with all the restrictions. I got one from [Ankit](https//wa.me/917979939400) you can ask him to :P or just a quick [search](https://search.brave.com/search?q=spotify+mod+8.7&source=desktop) gives you a lot of modded Android version ~~iPhone users shu shu~~ definitely available.
+There are multiple **modded** versions of Spotify available which just work fine still even with all the restrictions. I got one from [Ankit](https://wa.me/917979939400) you can ask him to :P or just a quick [search](https://search.brave.com/search?q=spotify+mod+8.7&source=desktop) gives you a lot of modded Android version ~~iPhone users shu shu~~ definitely available.
 
 Well there is definitely **attached risk** for installing mod maybe it is some harmful app instead but well isn't that life :P. Everything is risk from stock markets to driving vehicle to **travelling to Himachal** but even the most chaotic of experiences won't stop me at least from getting that **adrenaline shot** of investing in a new found fund, going at **170km/hr** on Delhi - Mumbai Expressway, Returning to my beloved mountains on a trip to Nanital, etc.
 

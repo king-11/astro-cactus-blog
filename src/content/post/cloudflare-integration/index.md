@@ -34,12 +34,12 @@ The resources I moved from multiple different providers included:
 Let's dive into how my late night network shenanigans went.
 
 ## Custom Domain
-I had a great time just using [github.io](github.io), [vercel.app](vercel.app) and [netlify.app](netlify.app). These service providers are amazing and offer you a lot for free. But there were primarily two reason for my switch:
+I had a great time just using [github.io](https://github.io), [vercel.app](https://vercel.app) and [netlify.app](https://netlify.app). These service providers are amazing and offer you a lot for free. But there were primarily two reason for my switch:
 - I wanted to setup a [cloudflare tunnel](#cloudflare-tunnel) for my `jellyfin` server at flat so that I can binge watch my series and movies from anywhere in the world
 - Having everything under a single umbrella helps in developing the brand as people remember it easily so why not?
 
 ### Purchasing Domain
-So after asking people what top level domain (`TLD`) should I buy and thinking a little about getting free ones. I unloaded my pockets and got myself **[king-11.dev](king-11.dev)** from **[Namecheap](namecheap.com)**.
+So after asking people what top level domain (`TLD`) should I buy and thinking a little about getting free ones. I unloaded my pockets and got myself **[king-11.dev](https://king-11.dev)** from **[Namecheap](https://www.namecheap.com)**.
 
 The only issue was they didn't provide `INR` payment options just like `cloudflare` so I had to use my **[OneCard](https://www.getonecard.app/)** as that provides a good **forex** rate of **1%** only.
 
@@ -87,13 +87,13 @@ graph TD
 ```
 
 ## Github Pages
-I have been using github pages to deploy my static sites which included my [blog](github.com/king-11/blog) repository. It uses a **[github action](https://github.com/king-11/blog/blob/main/.github/workflows/hugo.yaml#L36)** to build and then publish my **[hugo](https://gohugo.io/)** based site onto github pages.
+I have been using github pages to deploy my static sites which included my [blog](https://github.com/king-11/blog) repository. It uses a **[github action](https://github.com/king-11/blog/blob/main/.github/workflows/hugo.yaml#L36)** to build and then publish my **[hugo](https://gohugo.io/)** based site onto github pages.
 
 The change I needed to make here was
 1. Add the custom domain in Settings -> Pages section.
-2. Create DNS entry in cloudflare to point [blog.king-11.dev](blog.king-11.dev) towards a github server.
+2. Create DNS entry in cloudflare to point [blog.king-11.dev](https://blog.king-11.dev) towards a github server.
 
-But I don't know the server neither does cloudflare's nameserver and given I am no more using [king-11.github.io/blog](king-11.github.io/blog) that entry would just redirect to my custom domain. So who will find me the ip address for my site?
+But I don't know the server neither does cloudflare's nameserver and given I am no more using [king-11.github.io/blog](https://king-11.github.io/blog) that entry would just redirect to my custom domain. So who will find me the ip address for my site?
 
 ### CNAME Entry
 Given github is the only one aware about the IP Address of my server, cloudflare needs to add a mapping such that dns resolution for my subdomain is offloaded to github.
@@ -116,7 +116,7 @@ dig blog.king-11.dev +trace
 ### Mixed Content Bug
 After all this process it started to happen that the cover of my blogs wasn't visible anymore. Checking the console of browser the issue was that
 
->Mixed Content: The page at 'https://blog.king-11.dev/posts/memory-management/' was loaded over HTTPS, but requested an insecure image 'http://blog.king-11.dev/posts/memory-management/cover_hu3f9b19c18b96efe8ccfa749888a579de_415626_720x0_resize_q75_h2_box_2.webp'. This request has been blocked; the content must be served over HTTPS.
+> Mixed Content: The page at `https://blog.king-11.dev/posts/memory-management/` was loaded over HTTPS, but requested an insecure image `http://blog.king-11.dev/posts/memory-management/cover_hu3f9b19c18b96efe8ccfa749888a579de_415626_720x0_resize_q75_h2_box_2.webp`. This request has been blocked; the content must be served over HTTPS.
 
 So browsers don't allow accessing any HTTP (insecure) resource from an HTTPS (secure) page. But why was it using `http`?
 

@@ -233,7 +233,7 @@ proc main() throws {
 
 It was wonderful working with the Chapel community throughout the GSoC project. I would like to thank Michael, Krishna, and Ankush for solving my queries, debugging issues with me, giving constructive suggestions and guiding me through the program. Thanks to Brad, Lydia, Engin, Greg, Paul, and the members of the Chapel Community for helping with their suggestions.
 
-I would like to thank [Shivansh Saini](https://github.com/shivanshs9), @[Nishant Mittal](@nishantwrp), and @[Ashish Kumar](@krashish8) for motivating and guiding me in applying and getting through the whole program.
+I would like to thank [Shivansh Saini](https://github.com/shivanshs9), [Nishant Mittal](https://github.com/nishantwrp), and [Ashish Kumar](https://github.com/krashish8) for motivating and guiding me in applying and getting through the whole program.
 
 Final thanks to Google for organizing this amazing program. I feel GSoC made it easier for me to get started with open source contributions. It was a great lesson on how projects are built and maintained with great quality. I am excited to continue contributing to the open-source community
 
