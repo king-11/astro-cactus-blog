@@ -7,6 +7,50 @@
 @variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
 
 /* you could refactor below to use light-dark(), depending on your target audience */
+
+@font-face {
+	font-family: 'Atkinson Hyperlegible';
+	src: url('/src/assets/AtkinsonHyperlegibleNext-VariableFont_wght.ttf') format('truetype');
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Atkinson Hyperlegible';
+	src: url('/src/assets/AtkinsonHyperlegibleNext-Italic-VariableFont_wght.ttf') format('truetype');
+	font-weight: 100 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adjusted Georgia Fallback';
+    src: local(Georgia);
+    size-adjust: 100%;
+    ascent-override: 100%;
+    descent-override: 34%;
+    line-gap-override: normal;
+}
+
+@font-face {
+    font-family: 'Adjusted Arial Fallback';
+    src: local(Arial);
+    size-adjust: 100%;
+    ascent-override: 94%;
+    descent-override: 32%;
+    line-gap-override: normal;
+}
+
+@font-face {
+    font-family: 'Adjusted Verdana Fallback';
+    src: local(Verdana);
+    size-adjust: 89%;
+    ascent-override: 108%;
+    descent-override: 32%;
+    line-gap-override: normal;
+}
+
 @theme {
 	--color-global-bg: oklch(98.48% 0 0);
 	--color-global-text: oklch(26.99% 0.0096 235.05);
@@ -14,6 +58,7 @@
 	--color-accent: oklch(55.27% 0.195 19.06);
 	--color-accent-2: oklch(18.15% 0 0);
 	--color-quote: oklch(55.27% 0.195 19.06);
+  --font-sans: 'Atkinson Hyperlegible', 'Adjusted Georgia Fallback', 'Adjusted Arial Fallback', 'Adjusted Verdana Fallback', 'sans-serif';
 }
 
 @layer base {
