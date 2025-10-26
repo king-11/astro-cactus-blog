@@ -5,7 +5,6 @@ description: Writing better commit messages allows us to preserve the history of
 tags:
 - git
 - tech
-canonicalUrl: https://king-11.hashnode.dev/good-commits
 publishDate: 2021-05-07
 coverImage:
   src: good-git-commits.webp

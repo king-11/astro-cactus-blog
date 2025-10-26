@@ -2,7 +2,6 @@
 title: Dynamic Styles in VueJS
 description: VueJS provides a straightforward way to create dynamic classes and styles
   using class and style bindings instead of plain strings.
-canonicalUrl: https://king-11.hashnode.dev/dynamic-classes-and-styles
 tags:
 - vuejs
 - tech
@@ -16,7 +15,7 @@ coverImage:
 
 In this article, I aim to provide a not so new but also not so known way of adding **dynamic features** into your application, ensuring that you can achieve what you wish to simply **without** writing *boilerplate code* and meddling with *string concatenation*.
 
-When writing Dynamic UI Components that respond to user actions and events, we require methods to respond to these events by translating them into our DOM. Change in DOM is usually achieved by changing *styles* and *classes* based on certain **reactive data** that we have in our javascript. 
+When writing Dynamic UI Components that respond to user actions and events, we require methods to respond to these events by translating them into our DOM. Change in DOM is usually achieved by changing *styles* and *classes* based on certain **reactive data** that we have in our javascript.
 
 ![old methods work but we can do better](https://cdn.hashnode.com/res/hashnode/image/upload/v1624430311612/E4UZ-uktt.png)
 
@@ -29,7 +28,7 @@ If you aren't familiar with what data binding is....it's essentially binding any
 Data binding is one of the most elegant features of Vue.js because it provides reactive data binding with a straightforward syntax using `v-bind`.
 
 ```html
-<div 
+<div
   v-bind:class="dynamicClass"
 >Hello World!
 </div>
@@ -38,7 +37,7 @@ Data binding is one of the most elegant features of Vue.js because it provides r
 A shorthand for data binding is but just using `:` and then the attribute name, which I guess anyone would prefer using more.
 
 ```html
-<div 
+<div
   :class="dynamicClass"
 >Hello World!
 </div>
@@ -68,7 +67,7 @@ export default {
 Enter array syntax which makes the previous task less cumbersome and also keeps it DRY at times when needed.
 
 ```html
-<article 
+<article
   :class="[changingBoolean : ? 'text-center' : 'text-justify']"
 >
     Hello World!
@@ -78,7 +77,7 @@ Enter array syntax which makes the previous task less cumbersome and also keeps 
 This looks so much cleaner than the previous method right ≧◠‿◠≦✌. But it's an array so we can add multiple values into it too :). Now we can toggle the text alignment class while flex and width will always be present.
 
 ```html
-<article 
+<article
   :class="[changingBoolean : ? 'text-center' : 'text-justify', 'flex w-2']"
 >
     Hello World!
@@ -137,7 +136,7 @@ Now the `:class` will be appended at the end of the class inside of our componen
 The array and object syntax for classes and style looks exactly identical except for a very minor change. It's not about the truthiness of variables anymore it's about assigning them to the right CSS property.
 
 ```html
-<nav 
+<nav
 :style="{ marginTop: marginTop + 'px', backgroundColor: infoColor }"
 >Doge Coin
 </nav>
@@ -151,13 +150,13 @@ In the above example, we are assigning the `color` property a dynamic value and 
 The purpose for array syntax in style reduces to allowing us to pass in multiple objects _( Duhhh that's what arrays do right :P )_ for style as passing a string to style works won't make much sense in the special syntax.
 
 ```html
-<nav 
+<nav
 :style="[marginObject, backgroundObject]"
 >Doge Coin
 </nav>
 ```
 
-## Bonus Treats 
+## Bonus Treats
 ![Bonus treats extra vue knowledge](https://media.giphy.com/media/ZAXpoT2WEYO3u/giphy.gif)
 
 Some CSS properties require us to use vendor prefixes. Vue will apply them for us implicitly but if you want to be explicit you can pass in multiple values for a single property through object syntax and providing an array of values. Vue will only render the last value in the array which the browser supports.

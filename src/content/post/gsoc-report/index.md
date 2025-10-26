@@ -4,7 +4,6 @@ tags:
 - open-source
 - tech
 - gsoc
-canonicalUrl: https://king-11.hashnode.dev/gsoc-2021-final-report
 publishDate: 2021-08-26 13:24:41+05:30
 coverImage:
   src: report.webp

@@ -5,7 +5,6 @@ tags:
 - open-source
 - tech
 - lfx
-canonicalUrl: https://king-11.hashnode.dev/lfx-mentorship-fall-2021
 publishDate: 2021-12-21 13:26:46+05:30
 coverImage:
   src: lfx.webp

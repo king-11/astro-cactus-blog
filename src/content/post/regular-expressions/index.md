@@ -6,7 +6,6 @@ description: Regex or Regular Expressions are the most powerful string matching 
 tags:
 - regex
 - tech
-canonicalUrl: https://king-11.hashnode.dev/understanding-not-so-regular-expressions
 publishDate: 2021-05-16
 coverImage:
   src: regular-expressions.webp

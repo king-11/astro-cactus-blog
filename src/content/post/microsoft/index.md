@@ -5,7 +5,6 @@ tags:
 - microsoft
 - life
 - tech
-canonicalUrl: https://king-11.hashnode.dev/interviewing-experience-microsoft
 publishDate: 2021-08-10 13:22:41+05:30
 coverImage:
   src: interview.webp
