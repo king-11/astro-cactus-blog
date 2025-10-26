@@ -3,6 +3,8 @@ import Search from "@/components/Search.astro";
 import ThemeToggle from "@/components/ThemeToggle.astro";
 import { menuLinks } from "@/site.config";
 import { siteConfig } from "../../site.config";
+import { Image } from "astro:assets";
+import blogLogo from "../../../public/icon.webp";
 ---
 
 <header class="group relative mb-28 flex items-center sm:ps-42" id="main-header">
@@ -12,9 +14,10 @@ import { siteConfig } from "../../site.config";
 			class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
 			href="/"
 		>
-			<img
+			<Image
 				class="me-2 block max-h-20 max-w-20 sm:absolute sm:-start-42 sm:me-0 sm:max-h-32 sm:max-w-32"
-				src="/icon.webp"
+				src={blogLogo}
+				loading="eager"
 				alt="Staff of Hermes with a crown"
 			/>
 			<span class="text-xl font-bold sm:text-2xl">{siteConfig.title}</span>
