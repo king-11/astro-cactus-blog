@@ -1,7 +1,7 @@
 ---
-title: The Healthy Kind of Selfish
-description: While the world looks down on people who are selfish, but there is a very strong argument here on why should be selfish too.
+title: In Pursuit of Happiness
 publishDate: 2026-01-01
+description: Putting ourselves first, saying no, being in present and cutting off the noise are some of my mantras I want to expand on to give 2026 a true chance to pursue happiness.
 tags:
   - life
   - happiness
@@ -11,17 +11,17 @@ coverImage:
   alt: Two Smiley faces
 ---
 
-Eyebrows raised, a glint of confusion—that's the reaction I expect when I say: **be selfish**.
+All through the year happiness is what we are pursuing by making resolutions, promises, changes and improvements.
 
-While people and society have conditioned us to flinch away from selfishness, the idea I am trying to put forth is why and how to do it in moderation while not being a *selfless halfwit* all the time.
+While people and society have conditioned us to veer away from thought of putting ourselves first, the idea I am trying to put forth is why and how to do it in moderation while not being a *selfless halfwit* all the time.
 
 Setting boundaries, saying no, tending to your well-being so you can function better and help others, preventing burnout and resentment is what selfishness looks like in *moderation*.
 
-The prime reason of why to be selfish is if you want this new year to be actually happy. If you want to ensure your mental wellbeing, you have to start putting yourself first.
+If you want to ensure your mental wellbeing, you have to focus on the present and cut off the noise. I intend to share some of my own **mantras** and **observations** as we head into **2026**.
 
 We always talk about achieving main character energy, wouldn't the crowd be disappointed if the main character isn't trying to be happy? We can't let them be disappointed we have to _ensure our own happiness_.
 
-## Ensuring our happiness
+## Your Happiness First
 I have felt the difference in my state of wellbeing and happiness by taking care of myself first, which then gives me a chance to look after others' happiness.
 
 While writing this blog, I came across an [article](https://medium.com/@dbawiga79/always-fill-your-own-cup-first-and-allow-the-world-to-benefit-from-the-overflow-a05eefac943b) with similar ideas. The major highlight was that we should always be filling our own cup of happiness first so that others can benefit from the **overflow**.
@@ -36,9 +36,9 @@ My father always tries to take **responsibility** for everyone's happiness in ou
 
 So what's left? Just be happy and try to share that happiness without worrying about if it will actually make a difference for others or not.
 
-Being selfish isn't about being **mean** or **inconsiderate**. It's only about self-preservation. And the first tool in this pursuit? Learning to say no.
+Putting yourself first isn't about being **mean** or **inconsiderate**. It's only about self-preservation. And the first tool in this pursuit? Learning to say no.
 
-## Saying NO!
+## Saying No!
 :::quote
 "Half of the troubles of this life can be traced to saying yes too quickly and not saying no soon enough." — Josh Billings
 :::
@@ -66,7 +66,7 @@ Can you tell me today with 100% assurance that you aren't going to die tomorrow?
 
 Stop worrying so much about the future which is still in flux, very much unclear and uncertain. Most of us are using the present to think about what occurred in the **past** and what might happen in the **future**.
 
-We all should focus on making ourselves happy today, not tomorrow, not after your next promotion, big switch, selection in an Ivy League university, it has to be today!
+We all should focus on making ourselves happy today, not tomorrow, not after your next promotion, big switch, selection in an Ivy League university-it has to be today!
 
 The more you **delay your happiness** the more chances are there that you will **forget** that you were even chasing it in the first place. Everything we are going through was just to be happy.
 
@@ -89,28 +89,45 @@ In his essay _[On the Shortness of Life](https://dn790008.ca.archive.org/0/items
 "You wouldn't worry so much about what others think of you if you realized how seldom they do." — Eleanor Roosevelt
 :::
 
-We worry so much about what others would think of us. How will society be looking down on us?
-
-In those moments it's good to remind ourselves that everyone is so busy with their own life that they hardly have time to ponder on judging decisions others are making.
+We worry so much about what others would think of us. How will society be looking down on us? In those moments it's good to remind ourselves that everyone is so busy with their own life that they hardly have time to ponder on judging decisions others are making.
 
 Yes, they might say one or two sentences but the constant stream of thoughts we overload our brain with is never the actual situation.
 
 We all give too much importance to our own existence. We are our biggest critic.
 
-You'll always be **brave** in someone's mind and **coward** in another's, **strong** to one and **fragile** to another, **good** to one and **terrible** to another. You will be seen as **comforting** to one and **annoying** to another.
+We'll always be **brave** in someone's mind and **coward** in another's, **strong** to one and **fragile** to another, **good** to one and **terrible** to another. We will be seen as **comforting** to one and **annoying** to another.
 
-Some will feel *anxious* around you and some will find *peace* in your company. Some will see you as *too much* while others will see you as a *gift*.
+Some will feel *anxious* around us and some will find *peace* in our company. Some will see us as *too much* while others will see us as a *gift*.
 
-The world will look at you from their **subjective** point of view. The world is never going to agree on a **definition** of who you are. So you might as well **live** the way that feels **true** to your heart.
+The world will look at us from their **subjective** point of view. The world is never going to agree on a **definition** of who we are. So we might as well **live** the way that feels **true** to our heart.
+
+Show people who you really are-that is the only way of finding your *true calling* and people who actually **value** you. Hiding and lying just because someone prefers a different version of reality will only *guilt-trip* you into thinking that there is something wrong with your actions.
+
+## Limited Control
+I believe with our actions we can only control as much as **1/3rd** of our life. The rest is governed by **luck** and **grace**.
+
+The idea that we control much of our lives forces us to *blame* ourselves hard when things don't go the way we wanted them to go. Whereas knowing that [we can't control our luck](https://jamesclear.com/quotes/we-cannot-control-our-luck-good-or-bad-but-we-can-control-our-effort-and-preparation-luck-smiles-on-us-all-from-time-to-time-and-when-it-does-the-way-to-honor-your-good-fortune-is-t) **relieves** us of the guilt.
+
+We can reduce the pressure on ourselves and others knowing that relationships end even after 9 years, people get laid off after promotions and accidents happen all the time.
+
+Knowing we barely control things can be scary too. The only remedy to fear is positive **action** and **intent**. These are the only two things we control. Positive action and intent is something that will help you in dealing with bad times knowing you are still treading on the *right path* and because [trying is beautiful](https://blog.king-11.dev/posts/trying-is-beautiful/)
+
+I won't blame myself for my accident, nobody will but the fear of another such accident won't stop me from chasing happiness that I get to experience in the embrace of the Himalayas. I do take better safety measures while traveling now though.
+
+:::note
+We can't control luck but we can control our decisions and how we react to the difficulties. After all, a phoenix rises from the ashes.
+:::
 
 ## Conclusion
-That's been my time, folks. I hope my ideas coupled with anecdotes give you a way forward to be a little happier in the present and less worried.
+That's been my time, folks. I hope my ideas coupled with *anecdotes* and quotes give you a way forward to be happier in the present and less worried.
 
-:::quote
+:::info
 Life is meant to be lived in the greys, not the blacks or the whites, because binary is encoding for machines, not human beings.
 :::
 
-And hence selfishness in moderation is totally fine. Wear that as a badge of honor that you are aware of how to take care of yourself.
+The one thing I didn't try to cover much here is dealing with "*everyone looks so happy on social media...because it is social media*", I have extensively covered it in [Scrolling Ourselves to Death](https://blog.king-11.dev/posts/scrolling-death/#logging-off).
+
+Selfishness in moderation is totally fine. Wear that as a badge of honor that you are aware of how to take care of yourself. I know it's always easier said than done but give it some try.
 
 :::important
 **Self-care** is not a moral failing but a necessary foundation for a **purposeful life**.
