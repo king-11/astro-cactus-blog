@@ -1,6 +1,6 @@
 import fs from "node:fs";
 // Rehype plugins
-import { rehypeHeadingIds } from "@astrojs/markdown-remark";
+import { rehypeHeadingIds, unified } from "@astrojs/markdown-remark";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@tailwindcss/vite";
@@ -68,27 +68,30 @@ export default defineConfig({
 		syntaxHighlight: {
 			excludeLangs: ["mermaid"],
 		},
-		rehypePlugins: [
-			rehypeHeadingIds,
-			[rehypeAutolinkHeadings, { behavior: "wrap", properties: { className: ["not-prose"] } }],
-			[
-				rehypeExternalLinks,
-				{
-					rel: ["noreferrer", "noopener"],
-					target: "_blank",
-				},
+		processor: unified({
+			rehypePlugins: [
+				rehypeHeadingIds,
+				[rehypeAutolinkHeadings, { behavior: "wrap", properties: { className: ["not-prose"] } }],
+				[
+					rehypeExternalLinks,
+					{
+						rel: ["noreferrer", "noopener"],
+						target: "_blank",
+					},
+				],
+				rehypeUnwrapImages,
+				// TODO(king-11): dark mode not working as button based
+				[rehypeMermaid, { strategy: "img-svg", dark: true }],
+				rehypeGithubEmoji,
 			],
-			rehypeUnwrapImages,
-			// TODO(king-11): dark mode not working as button based
-			[rehypeMermaid, { strategy: "img-svg", dark: true }],
-			rehypeGithubEmoji,
-		],
-		remarkPlugins: [remarkReadingTime, remarkDirective, remarkGithubCard, remarkAdmonitions],
-		remarkRehype: {
-			footnoteLabelProperties: {
-				className: [""],
+			remarkPlugins: [remarkReadingTime, remarkDirective, remarkGithubCard, remarkAdmonitions],
+			remarkRehype: {
+			footnoteLabel: "References",
+				footnoteLabelProperties: {
+					className: ["references-heading"],
+				},
 			},
-		},
+		}),
 	},
 	// https://docs.astro.build/en/guides/prefetch/
 	prefetch: true,
